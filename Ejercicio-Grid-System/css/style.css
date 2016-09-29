@@ -1,0 +1,161 @@
+* {
+	box-sizing:content-box;
+	font-family: Arial;
+}
+.black {
+	background-color: #333333;
+	position: relative;
+	color: white;
+	height: 122px;
+	border-bottom: 2px solid black;
+}
+.logo {
+	width: 80px;
+	height: 80px;
+	top: 15px;
+	position: relative;
+}
+
+.nav{
+	position: relative;
+	top: 35px;
+	font-size: 14px;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	position: relative;
+	margin: 13px;
+}
+.grey {
+	position: relative;
+	background-color: #EEEEEE;
+	height: 333px;
+	border-bottom: 2px solid #C5C5C5;
+}
+.episodes {
+	display: inline-block;
+	margin: 20px;
+	color:  #303132;
+	font-size: 20px;
+}
+.more {
+	display: inline-block;
+	color: #3B619D;
+	font-size:14px;
+	font-weight: 10px;
+}
+.big{
+	width: 215px;
+	height: 215px; 
+	border: 1px solid #D7D7D7;
+	padding: 4px;
+	background-color: white;
+}
+.name {
+	text-align: center;
+	color: #2C72B1;
+	font-size: 16px;
+}
+.movie {
+	width: 110px;
+	height: 110px;
+	border: 1px solid #C5C5C5;
+	padding: 2px;
+	background-color: white;
+	position: relative;
+	top: 40px;
+	right: 15px;
+}
+.titulo {
+	position: relative;
+	top: 40px;
+	font-size: 14px;
+	color: #3B619D;
+	text-align: center;
+	margin-bottom: 20px;
+	right: 15px;
+	font-weight: 20px;
+}
+.derecha {
+	position: relative;
+	top: 55px;
+}
+.linea {
+	border: 1px solid #BBBBBB;
+	width: 230px;
+	position: relative;
+	top: 20px;
+}
+.suscribe {
+	color: #323232;
+	display: inline-block;
+	position: absolute;
+	font-size: 16px;
+}
+.item {
+	display: inline-block;
+	position: relative;
+	top: 50px;
+}
+.desitem {
+	display: inline-block;
+	position: relative;
+	left: 15px;
+	margin-bottom: 10px;
+	color: #3366ff;
+	font-size: 15px;
+}
+.pod {
+	width: 14px;
+	height: 14px;
+}
+.segundo {
+	top: 80px;
+	position: relative;
+}
+span {
+	color: #3366ff;
+}
+.tercero{
+	top: 130px;
+	position: relative;
+	font-size: 15px;
+
+}
+.cachefly {
+	top: 50px;
+	position: relative;
+
+}
+.fin {
+	clear: both;
+	position: relative;
+	background-color: #585858;
+	color: white;
+	text-align: center;
+	top: 50px;
+	padding: 40px;
+	height: 200px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.pad {
+	margin-left: 20px;
+	text-align: left;
+}
+.ultimo {
+	
+	position: relative;
+	text-align: center;
+	top: 20px;
+	font-family: Arial;
+	font-size: 15px;
+}
+.copyright {
+	top: 30px;
+	position: relative;
+	display: block;
+	margin-bottom: 30px;
+}

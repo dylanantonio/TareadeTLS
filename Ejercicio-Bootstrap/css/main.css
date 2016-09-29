@@ -1,0 +1,371 @@
+nav ul, nav .form-inline{
+	margin-top: 2%;
+}
+nav .form-inline{
+	border-left: 2px solid black;
+}
+.form-inline > input{
+	border:2px solid black;
+	padding-left: 1%;
+}
+.form-inline > button{
+	border: 2px solid black;
+	color: black;
+	font-weight:bold;
+	border-radius: 5px;
+}
+.tab{
+	background: #D6D6D6;
+    padding-top: 5%;
+	margin-bottom:1.5%; 
+}
+.tab .btn{
+    padding: 1% 2%; 
+	font-weight: bold;
+}
+.btn-white{
+	background: white;
+	border-radius: 0;
+}
+article{
+	padding: 0 !important;
+
+}
+.historia-destacada{
+	background-color: grey;
+	padding:5px;
+	color: white;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+.info-article{
+	margin:1% 0;
+}
+.info-article .clase{
+    display: inline-block;
+    font-weight: bold;
+    border-right: 1px solid black;
+    padding-right: 1%;
+    font-size: 12px;
+}
+.info-article .publicacion{
+	display: inline-block;
+	font-size: 12px;
+	color: grey;
+	margin-left: 0.4%;
+}
+article h3{
+	margin: 2% 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+article p{
+	font-size: 13px;
+	color: grey;
+}
+.buttons{
+	border-bottom: 1px solid grey;
+    padding-bottom: 2.5%;;
+}
+.buttons > a{
+	color: black;
+	font-weight: bold;
+}
+
+article .foto{
+	background-color: grey;
+	color: black;
+	text-align: center;
+	margin-bottom: 2%;
+}
+.foto span{
+	display: inline-block;
+	margin:12%;
+	font-weight: bold;
+}
+
+.buttons div{
+	display: inline-block;
+	margin-left: 5%;
+}
+.webzone{
+	background-color: black;
+    color: white;
+    padding: 0.5% 5%;
+    font-size: 12px;
+}
+
+.video{
+	background-color: #D6D6D6;
+	width: 100%;
+	padding: 0% 3% 3%;
+
+}
+.video .reproductor{
+	background-color: white;
+	border:1px solid black;
+	padding-bottom: 50%;
+	margin: 3% 0;
+}
+.video > h3{
+	margin:1% 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.video > p{
+	font-size: 13px;
+	color: grey;
+}
+.video > .publicacion{
+	font-size: 12px;
+    color: grey;
+}
+.ver-mas a{
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+}
+footer > .lista-container{
+	width: 19%;;
+	display: inline-block;
+}
+.lista-container > h3{
+	font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.lista-container a{
+	font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.agenda{
+	border-bottom: 1px solid grey;
+	padding: 2% 0 5%;
+}
+.agenda > .historia-destacada{
+	padding-right: 20%;
+	margin-bottom: 3%;
+}
+.agenda > .clearfix{
+	padding: 1% 0;
+}
+
+.masinformacion{
+	clear: both;
+}
+.mas-informacion > h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 1% 0 0 0;
+	clear: both;
+}
+.mas-informacion > a{
+	font-size: 13px;
+    text-decoration: underline;
+    color: grey !important;
+    font-weight: bold;
+    margin-top: 5%;
+    display: inline-block;
+}
+.mas-informacion > h3{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0;
+}
+.mas-informacion > p{
+	color: grey;
+	font-size: 13px;
+	margin: 0;
+}
+.seccion3{
+	padding: 0;
+}
+.mas-informacion > ul{
+	padding: 5% 0% 5% 5%;
+	border-bottom: 1px solid grey;
+}
+.mas-informacion a{
+	font-weight: bold;
+	color: black;
+}
+
+.magazine{
+	background-color: #EBEBEB;
+    padding: 5% 5% 1%;
+    margin-bottom: 5%;
+}
+.magazine > h2, h3, h4{
+	margin:0;
+}
+.magazine > h2{
+	font-size: 15px;
+    font-weight: bold;
+}
+.magazine > h3{
+	font-size: 16px;
+    font-weight: 800;
+}
+.magazine > h4, p{
+	font-size: 12px;
+	color: grey;
+}
+.magazine > h4{
+	margin-top: 5%;
+}
+.magazine > p{
+	margin-bottom: 10%;
+}
+.magazine > h5{
+	font-size: 12px;
+	font-weight: 800;
+}
+
+footer{
+	border-top: 5px solid #444444;
+	padding-left: 0!important;
+	padding-right: 0!important;
+	padding: 1% 0;
+	 clear: both;
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+	.tab .btn {
+	padding: 1%;
+    font-weight: bold;
+	}
+	.seccion2{
+		margin-bottom: 5%;
+	}
+	.footer{
+		clear: both;
+	}
+}
+.agenda .fecha{
+    background-color: #AAAAAA;
+    max-width: 71.281px;
+    height: 70px;
+	margin-top: 1%;
+    display: inline-block;
+    float: left;
+}
+.fecha > p{
+	color: black;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15% 0;
+}
+.agenda .descripcion{
+	display: inline-block;
+    width: 65%;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.descripcion > h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0;
+}
+.descripcion >p{
+	font-size: 13px;
+	color:grey;
+	margin-bottom: 0;
+}
+.descripcion > .fecha-agenda{
+    font-size: 13px;
+    color: grey;  
+    margin-top: 1%;
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+	nav ul{
+		margin-top: 5%;
+	}
+
+	.tab{
+	width: 96%;
+	}
+
+	.tab .btn {
+	padding: 1%;
+    font-weight: bold;
+	}
+	article{
+		padding-left: 15px!important;
+		clear: both;
+    	margin-bottom: 5%;
+	}
+	.seccion2{
+		margin-bottom: 5%;
+	}
+	.agenda .fecha{
+		margin-top: 3%;
+	}
+	.agenda > .historia-destacada {
+    	padding-right: 30%;
+	}
+	.descripcion >p {
+    	line-height: 102%;
+    }
+	footer{
+		clear: both;
+		padding:5% 0;
+		padding-left: 15px !important;
+		padding-right: 15px !important; 
+	}
+}
+
+@media (max-width: 768px) {
+	nav ul{
+		margin-top: 7%;
+	}
+
+	.tab{
+	    width: 95%;
+    	margin: auto;
+	}
+
+	.tab .btn {
+	padding: 1%;
+    font-weight: bold;
+	}
+	article{
+		padding-left: 15px!important;
+		clear: both;
+    	margin-bottom: 5%;
+    	padding-right: 15px !important;
+	}
+	.video > .historia-destacada{
+		padding-right: 24%
+	}
+	.seccion2{
+		margin-bottom: 2%;
+	}
+	.agenda .fecha{
+		margin-top: 0%;
+	}
+	.agenda > .historia-destacada {
+    	padding-right: 30%;
+	}
+	.descripcion >p {
+    	line-height: 102%;
+    }
+    .mas-informacion{
+    	margin: 5% 0;
+    }
+	footer{
+		clear: both;
+		padding:5% 0;
+		padding-left: 15px !important;
+		padding-right: 15px !important; 
+	}
+	footer > .lista-container {
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
